@@ -1,0 +1,95 @@
+body{
+    background: -webkit-linear-gradient(360deg, orange, white, green);
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    color: rgb(58, 58, 58);
+    padding-bottom: 50px;
+}
+body .h1 h1{
+    padding: 40px;
+}
+body h1{
+    color: blue;
+    padding-top: 20px;
+}
+body h1:hover{
+    color: brown;
+    cursor: pointer;
+    font-style: italic;
+}
+body p{
+    margin: 40px;
+    font-size: 22px;
+}
+body img{
+    margin-top: -30px;
+}
+body .p1 p{
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 20px;
+    text-align: left;
+}
+body ul{
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+    text-align: left;
+}
+body ul .li{
+    margin-left: -80px;
+    margin-right: -80px;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 20px;
+    transition: transform 0.5s;
+    background-color: rgb(46, 139, 87, 0.20);
+    box-shadow: 10px 10px 10px rgb(56, 56, 56);
+}
+body ul .li:hover{
+    transform: translateY(-10px);
+}
+body ul .li1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 90px;
+    text-align: left;
+    font-size: 20px;
+    transition: transform 0.5s;
+    background-color: rgb(46, 139, 87, 0.20);
+    box-shadow: 10px 10px 10px rgb(56, 56, 56);
+}
+body ul .li1:hover{
+    transform: translateY(-10px);
+}
+body ol{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    text-align: left;
+    font-size: 20px;
+    transition: transform 0.5s;
+    background-color: rgb(46, 139, 87, 0.20);
+    box-shadow: 10px 10px 10px rgb(56, 56, 56);
+}
+body ol:hover{
+    transform: translateY(-10px);
+}
+body ol .li{
+    padding-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: left;
+    font-size: 20px;
+}
+
