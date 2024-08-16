@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="survey.css">
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <form>
+            <div class="radio">
+            <label>Name</label>
+            <br>
+            <input type="text" name="first" placeholder="Enter your name" required/>
+            <br>
+            <br>
+            <label>Email</label>
+            <br>
+            <input type="email" name="email" placeholder="Enter your email" required/>
+            <br>
+            <br>
+            <label>Age</label>
+            <br>
+            <input type="number" name="age" placeholder="Enter your age" required/>
+            <br>
+            <br>
+            <label>Which option describes you the best?</label>
+            <br>
+            <select>
+                <option>Custom</option>
+                <option>Student</option>
+                <option>Intern</option>
+                <option>Fresher</option>
+                <option>Professional</option>
+                <option>Other</option>
+            </select> 
+            </div>
+            <br>
+            <br>
+            <label>Would you recommend VS Code to a friend?</label>
+            <br>
+            <div class="value1">
+            <input type="radio" value="Yes" required/>Yes<br>
+            <input type="radio" value="Yes" required/>No<br>
+            <input type="radio" value="Yes" required/>Maybe<br>
+            <input type="radio" value="Yes" required/>Prefer not to say<br>
+            <br>
+            </div>
+            <label>Languages and Frameworks known:</label>
+            <br>
+            <div class="value1">
+            <input type="checkbox" value="Yes"/>C<br>
+            <input type="checkbox" value="Yes"/>C++<br>
+            <input type="checkbox" value="Yes"/>C#<br>
+            <input type="checkbox" value="Yes"/>Java<br>
+            <input type="checkbox" value="Yes"/>Python<br>
+            <input type="checkbox" value="Yes"/>HTML<br>
+            <input type="checkbox" value="Yes"/>CSS<br>
+            <input type="checkbox" value="Yes"/>JavaScript<br>
+            <input type="checkbox" value="Yes"/>React<br>
+            <input type="checkbox" value="Yes"/>MongoDB<br>
+            <input type="checkbox" value="Yes"/>PHP<br>
+            <input type="checkbox" value="Yes"/>Bootstrap<br>
+            </div>
+            <br>
+            <div class="cmt1">
+            <label>Any comments and suggestions:</label>
+            <br>
+            <textarea cols="80" rows="5" placeholder="Enter your comments here....."></textarea>
+            </div>
+            <br>
+            <button>Submit</button>
+            <br>
+            <button>Reset</button>
+            </form>
+    </body>
+</html>

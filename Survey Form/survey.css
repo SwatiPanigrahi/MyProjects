@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(8, 156, 8);
+    text-align: center;
+    font-family: Verdana;
+}
+body h1{
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+body h1:hover{
+    color: rgb(47, 241, 255);
+    cursor: pointer;
+}
+body form{
+    text-align: left;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 2px 5px 10px rgba(0, 0 , 0, 0.5);
+    padding: 30px;
+    margin: 20px;
+}
+body form button{
+    background: rgb(8, 156, 8);
+    color: aliceblue;
+    border: 1px solid black;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+body form button:hover{
+    background-color: goldenrod;
+    color: black;
+}
+body form .radio label{
+    display: block;
+    margin-bottom: 0px;
+}
+body form .radio input{
+    width: 100%;
+    padding: 5px;
+    margin-top: -20px;
+}
+body form .radio select{
+    width: 101%;
+    padding: 5px;
+}
+body form .cmt1 textarea{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+body form textarea{
+    margin-bottom: 20px;
+}
+body form .value1 input{
+    margin-top: 10px;
+}
