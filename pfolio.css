@@ -1,0 +1,220 @@
+body nav{
+    background: -webkit-linear-gradient(180deg, rgb(255, 166, 0), snow, rgb(255, 166, 0),snow, rgb(255, 166, 0) );
+    font-family: sans-serif;
+    color: black;
+    text-align: right;
+    padding: 20px;
+}
+body nav bar{
+    padding-right: 20px;
+}
+body nav bar a{
+    padding-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+body nav bar:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+body .nav1 nav{
+    background: -webkit-linear-gradient(90deg, rgb(255, 166, 0), snow, rgb(255, 166, 0),snow, rgb(255, 166, 0) );
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+body .nav1 bar:hover{
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+body .about nav{
+    background: black;
+    font-family: sans-serif;
+    color: rgb(255, 166, 0);
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+body .about nav bar:hover{
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+body .about nav .describe{
+    background: black;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 10px;
+    margin-left: 80px;
+    text-align: left;
+    font-size: 20px;
+}
+body .about nav .describe img{
+    border-radius: 20px;
+    width: 300px;
+}
+body .about nav .describe p{
+    margin-left: 80px;
+}
+body .project nav{
+    background: -webkit-linear-gradient(180deg, rgb(255, 166, 0), snow, rgb(255, 166, 0),snow, rgb(255, 166, 0) );
+    font-family: sans-serif;
+    color: black;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+body .project nav bar{
+    margin-left: 100px;
+}
+body .project nav .dt{
+    margin-left: 50px;
+}
+body .project nav .dt bar{
+    margin-left: 100px;
+}
+body .project nav .td{
+    margin-left: 260px;
+    margin-top: -45px ;
+}
+body .project nav .td bar{
+    margin-left: 10px;
+}
+body .project nav bar:hover{
+    text-decoration: underline white;
+    cursor: pointer;
+}
+body .project nav ul{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+body .project nav ul li{
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+body .achievements nav{
+    background: black;
+    font-family: sans-serif;
+    color: rgb(255, 166, 0);
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+body .achievements nav bar:hover{
+    text-decoration: underline white;
+    cursor: pointer;
+}
+body .achievements nav .describe1{
+    background: black;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 50px;
+}
+body .achievements .describe1 ol{
+    padding-bottom: 5px;
+}
+body .achievements .describe1 .li{
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+body .contact nav{
+    background: -webkit-linear-gradient(180deg, rgb(255, 166, 0), snow, rgb(255, 166, 0),snow, rgb(255, 166, 0) );
+    font-family: sans-serif;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: -40px;
+    text-align: center;
+    font-size: 30px;
+}
+body .contact nav bar:hover{
+    cursor: pointer;
+    text-decoration: underline white;
+}
+body .contact nav form{
+    background: black;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 150px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+body .contact nav form label{
+    padding: 20px;
+}
+body .contact nav form input{
+    width: 60%;
+    margin-left: 50px;
+}
+body .contact nav form .num input{
+    width: 40%;
+    margin-left: 30px;
+}
+body .contact nav form button{
+    margin-left: 150px;
+    font-weight: bold;
+    padding: 10px;
+    width: 40%;
+}
+body .contact nav form button:hover{
+    color: black;
+    background: rgb(255, 166, 0);
+    cursor: pointer;
+}
+body .contact nav form textarea{
+    margin-left: 20px;
+}
+body .certifications1 nav{
+    background: -webkit-linear-gradient(180deg, rgb(255, 166, 0), snow, rgb(255, 166, 0),snow, rgb(255, 166, 0) );;
+    font-family: sans-serif;
+    color: black;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+body .certifications1 nav bar:hover{
+    text-decoration: underline white;
+    cursor: pointer;
+}
+body .certifications1 nav .describe1{
+    background: -webkit-linear-gradient(180deg, rgb(255, 166, 0), snow, rgb(255, 166, 0),snow, rgb(255, 166, 0) );;
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+}
+body .certifications1 .describe1 li{
+    padding-bottom: 20px;
+}
+body .certifications1 .describe1 .li{
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+.skills__data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: 0.5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  }
+  .skills__names {
+    display: flex;
+    align-items: center;
+  }
